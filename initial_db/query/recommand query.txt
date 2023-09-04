@@ -1,0 +1,3 @@
+db.recommend.insertOne({rec_pname:"초월식당", rec_pcategory:"food", rec_pinfo:"학교 주변에서 가장 돈까스가 맛있는 곳, 미리 마감될 수 있으니 서두르세요", rec_status:10})
+
+db.recommend.insertOne({rec_pname:"츠바메", rec_pcategory:"food", rec_pinfo:"가성비 좋은 일식 맛집, 가라아게동과 규동이 정말 일품!", rec_status:10})

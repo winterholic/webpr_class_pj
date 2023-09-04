@@ -1,0 +1,576 @@
+[{
+  "_id": {
+    "$oid": "64886c1ed7122a011e523936"
+  },
+  "place_seq": 1,
+  "place_nm": "그리네",
+  "place_info": "인스타갬성 낭낭 분위기맛집 카페, 직접 구워 맛있는 베이커리와 디저트가 있는 넓고 쾌적한 공간의 카페",
+  "place_url": "https://naver.me/5HSEUUFX",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbZLQeQ%2FbtshyocctlU%2FT3RzKC0oc93TnA3h1UdvUk%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 군자로 139 그리네",
+  "place_locate_num": 1,
+  "place_category": "cafe",
+  "place_thema": "카페",
+  "place_review_count": 1,
+  "place_score_avg": 5,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25313.058382626037!2d127.05898891119116!3d37.52837853804294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5d4d5b749ad%3A0x428d349b3d939bbb!2z6re466as64Sk!5e0!3m2!1sko!2skr!4v1685779393676!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c23d7122a011e523937"
+  },
+  "place_seq": 2,
+  "place_nm": "짐스하이드어웨이",
+  "place_info": "맛있는 브런치와 커피, 와인을 즐길 수 있는 감성적인 공간의 카페",
+  "place_url": "https://naver.me/F0c6xyQA",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIzSJI%2Fbtshy7AJFBk%2FNA64uyRF9nhrgD2PEjmyY0%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 군자로 162 1층",
+  "place_locate_num": 1,
+  "place_category": "cafe",
+  "place_thema": "카페",
+  "place_review_count": 1,
+  "place_score_avg": 5,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9921047127355!2d127.07697849999998!3d37.555249800000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5ae3b2fa151%3A0x6c8ccc46fdd610f7!2z7KeQ7IqkIO2VmOydtOuTnOyWtOybqOydtA!5e0!3m2!1sko!2skr!4v1685779720638!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c2cd7122a011e523938"
+  },
+  "place_seq": 3,
+  "place_nm": "연필",
+  "place_info": "원두와 잔을 직접 고를 수 있는 차분하고 조용한 분위기의 감성카페",
+  "place_url": "https://naver.me/F1LCvOqI",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F1NaqY%2FbtshtDIlB43%2FAA21yyTZfkefBDx2mCu7BK%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 면목로 12 1층 102호",
+  "place_locate_num": 1,
+  "place_category": "cafe",
+  "place_thema": "카페",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50607.91666330326!2d127.04056077910157!3d37.55518649999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5fa4a014613%3A0x5326553b974e1198!2z7Jew7ZWE!5e0!3m2!1sko!2skr!4v1685779790379!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c30d7122a011e523939"
+  },
+  "place_seq": 4,
+  "place_nm": "마리모",
+  "place_info": "도쿄에서 온 쉐프의 소박하고 따뜻한 일본 가정식 식당",
+  "place_url": "https://naver.me/5qRAPxIQ",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FSGyvu%2FbtshsKt9AfO%2Fq7TplfAp6rvIWlvxl4YLpK%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 면목로 22-1",
+  "place_locate_num": 1,
+  "place_category": "food",
+  "place_thema": "일식",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6600.130302223971!2d127.07049040641532!3d37.55139951725291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4d3a09b26ff%3A0xe55d05f2568f6a53!2z66eI66as66qo!5e0!3m2!1sko!2skr!4v1685779828187!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c33d7122a011e52393a"
+  },
+  "place_seq": 5,
+  "place_nm": "방이동샤브샤브",
+  "place_info": "엄청난 샤브샤브 맛집, 친절한 서비스까지",
+  "place_url": "https://naver.me/GnGCQ48l",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbeEDYk%2FbtshyWsuzwj%2FZWXFMy7Myx1WOPbe4hUkzk%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 군자로 106 1층",
+  "place_locate_num": 1,
+  "place_category": "food",
+  "place_thema": "한식",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.111837205474!2d127.07178769999999!3d37.55242880000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4cfda692015%3A0x275c9183e5dddd1e!2z7ISc7Jq47Yq567OE7IucIOq0keynhOq1rCDqtbDsnpDroZwgMTA2!5e0!3m2!1sko!2skr!4v1685779955505!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c37d7122a011e52393b"
+  },
+  "place_seq": 6,
+  "place_nm": "석기시대",
+  "place_info": "먹을만한 맛에 저렴하고 후문 바로 앞의 좋은 위치의 중식점",
+  "place_url": "https://naver.me/F7CAt6Vt",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbsGzYC%2Fbtsht1vFvg3%2FHWazGZwkrsgCQWpb5Wlxe1%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 군자로 111",
+  "place_locate_num": 1,
+  "place_category": "food",
+  "place_thema": "중화요리",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50609.433695922045!2d127.03708787910155!3d37.55295260000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4ce2ac4afbf%3A0x10d6d0306ccf272f!2z7ISd6riw7Iuc64yA7Kec7J6l66eI7J2E!5e0!3m2!1sko!2skr!4v1685779987134!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c3bd7122a011e52393c"
+  },
+  "place_seq": 7,
+  "place_nm": "온미",
+  "place_info": "조용하고 깔끔한 분위기의 김치찌개 맛집",
+  "place_url": "https://naver.me/5MCfJZLO",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FHVGYT%2FbtshsGSRCdI%2FGK6y2H1KoiLJGJQaaSpcT1%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 면목로 12 1층 101호 좌측",
+  "place_locate_num": 1,
+  "place_category": "food",
+  "place_thema": "한식",
+  "place_review_count": 1,
+  "place_score_avg": 5,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.992554625847!2d127.07569809999997!3d37.5552392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4d3b789c241%3A0x1341468f3eab2f4b!2z7ISc7Jq47Yq567OE7IucIOq0keynhOq1rCDrqbTrqqnroZwgMTI!5e0!3m2!1sko!2skr!4v1685780035304!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c3ed7122a011e52393d"
+  },
+  "place_seq": 8,
+  "place_nm": "또래끼리",
+  "place_info": "김치볶음밥 전문 맛집",
+  "place_url": "https://naver.me/5NdVx3cH",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbqjOTl%2FbtshyocdpXN%2Fdn9ZzpOvNVLEN1zHXv8pNK%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 군자로 103",
+  "place_locate_num": 1,
+  "place_category": "food",
+  "place_thema": "한식",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.11461290504!2d127.07141159999998!3d37.552363400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4cfc4f4af31%3A0x8fbf0dfd09d422f5!2z65iQ656Y64G866as!5e0!3m2!1sko!2skr!4v1685780055562!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c42d7122a011e52393e"
+  },
+  "place_seq": 9,
+  "place_nm": "체리커피",
+  "place_info": "예쁜 야외 테라스와 다양한 디저트가 있는 감성 카페",
+  "place_url": "https://naver.me/5Tv3Otz1",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FGCJY1%2FbtshybRL3HF%2FhlxkeAmV3LO3uko9KQnMw1%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 능동로 284",
+  "place_locate_num": 2,
+  "place_category": "cafe",
+  "place_thema": "카페",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.995058857274!2d127.07870350000002!3d37.555180200000024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356317b430fc77e7%3A0x18d8073dce14988d!2z7LK066as7Luk7ZS8!5e0!3m2!1sko!2skr!4v1685780070476!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c46d7122a011e52393f"
+  },
+  "place_seq": 10,
+  "place_nm": "팬도로시",
+  "place_info": "학생회관에 있어 공강에 있기 좋다. 아샷추 강추",
+  "place_url": "https://naver.me/5PSBubzq",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsLxQr%2Fbtshv3fHHW9%2FPTSN8VIYspZYBv8GIre4aK%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 능동로 209 학생회관 1층",
+  "place_locate_num": 2,
+  "place_category": "cafe",
+  "place_thema": "카페",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.226668783854!2d127.07533359999996!3d37.5497231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca51ee79b9e15%3A0x53e921e4105eb3bc!2z7Yys64-E66Gc7IucIOyEuOyiheuMgOygkA!5e0!3m2!1sko!2skr!4v1685780088280!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c49d7122a011e523940"
+  },
+  "place_seq": 11,
+  "place_nm": "카레당",
+  "place_info": "리필까지 해주는 맛있는 카레맛집, 분위기도 이쁨",
+  "place_url": "https://naver.me/56Ia53ff",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb1ezrv%2FbtshyO9hEfv%2F5nSkkCYrDvaB0CkqMtaWs0%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 능동로 251",
+  "place_locate_num": 2,
+  "place_category": "food",
+  "place_thema": "일식",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.104299505128!2d127.0767455!3d37.552606399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca528ae917833%3A0xb53354a161e48ecd!2z7Lm066CI64u5!5e0!3m2!1sko!2skr!4v1685780105250!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c4dd7122a011e523941"
+  },
+  "place_seq": 12,
+  "place_nm": "이이요",
+  "place_info": "대기까지 해야 하는 맛집 인정인 일식당. 회가 싱싱하다",
+  "place_url": "https://naver.me/x35i5oWZ",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbhsS0l%2FbtshyopJNGH%2FinwbBRfN69bbuKvZl4kkmK%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 능동로32길 6",
+  "place_locate_num": 2,
+  "place_category": "food",
+  "place_thema": "일식",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9960605489046!2d127.0789008!3d37.5551566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4d4f366aaad%3A0xf1397ed8bf2a019a!2z7J207J207JqU!5e0!3m2!1sko!2skr!4v1685780119425!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c52d7122a011e523942"
+  },
+  "place_seq": 13,
+  "place_nm": "카페롬곡",
+  "place_info": "갓 구은 와플이 맛있고, 카공하기 좋은 카페",
+  "place_url": "https://naver.me/FXZk4G1N",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnREq9%2FbtshxE02Xqj%2FcbwIf7qovJfLITEyRcjFi1%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 광나루로17길 18 1층",
+  "place_locate_num": 3,
+  "place_category": "cafe",
+  "place_thema": "카페",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.2814401597534!2d127.0726257!3d37.548432500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4dad144328f%3A0xffde490d882301f9!2z66Gs6rOh!5e0!3m2!1sko!2skr!4v1685780136075!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c56d7122a011e523943"
+  },
+  "place_seq": 14,
+  "place_nm": "커피샾",
+  "place_info": "가성비와 커피의 맛에만 집중한 테이킹 커피의 진수!",
+  "place_url": "https://naver.me/5D3dn1vo",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOIrFL%2FbtshwmTREgJ%2FCFwX4uodxEfpeyXZbHJMu1%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 광나루로 385",
+  "place_locate_num": 3,
+  "place_category": "cafe",
+  "place_thema": "카페",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2173.114014859737!2d127.0708331980146!3d37.54798629899889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca59f1e222b65%3A0x40c4be2c5915cc61!2z7Luk7ZS87Jio66asIOyEuOyiheuMgOygkA!5e0!3m2!1sko!2skr!4v1685780183517!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c5ad7122a011e523944"
+  },
+  "place_seq": 15,
+  "place_nm": "은혜즉석떡볶이",
+  "place_info": "짜장떡볶이 맛에 눈을 뜨다",
+  "place_url": "https://naver.me/F9QpQPR9",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FKHdTq%2Fbtshy69G1fq%2FFWsQZcUqfy74JOCKgHRtrK%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 광나루로 381-1",
+  "place_locate_num": 3,
+  "place_category": "food",
+  "place_thema": "분식",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.297566556858!2d127.07233929999998!3d37.548052500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4dad7a748fd%3A0x3ba1e60a1b23f67b!2z7J2A7Zic7KaJ7ISd65ah67O27J20!5e0!3m2!1sko!2skr!4v1685780203164!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c5fd7122a011e523945"
+  },
+  "place_seq": 16,
+  "place_nm": "뱃놈(미식일가)",
+  "place_info": "웨이팅을 감수할만한, 가성비, 맛, 분위기까지 전부 살린 조개구이 맛집",
+  "place_url": "https://naver.me/GNyUyMl4",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbqRD7R%2Fbtsht2uxorA%2FJgrJefNs1vZMDxTEUohS71%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 광나루로19길 9 1층",
+  "place_locate_num": 3,
+  "place_category": "food",
+  "place_thema": "해산물",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.2933015627364!2d127.0729449!3d37.548153000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4dad9ce2d1b%3A0xa3b69593ff0f145c!2z67GD64aI!5e0!3m2!1sko!2skr!4v1685780220513!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c63d7122a011e523946"
+  },
+  "place_seq": 17,
+  "place_nm": "혼다라멘",
+  "place_info": "맛도 가성비도 좋은 라멘 맛집",
+  "place_url": "https://naver.me/FDQn4Aya",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmdpoP%2Fbtshx8Omc7W%2Fgua8jlpL3M9bl2mhk2W8Ok%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 광나루로 385 1층1호",
+  "place_locate_num": 3,
+  "place_category": "food",
+  "place_thema": "일식",
+  "place_review_count": 3,
+  "place_score_avg": 4,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.2933015627364!2d127.0729449!3d37.548153000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca52fb26992b3%3A0x9c8c9077eade75d2!2z7Zi864uk652866mY!5e0!3m2!1sko!2skr!4v1685780234943!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c67d7122a011e523947"
+  },
+  "place_seq": 18,
+  "place_nm": "세종원",
+  "place_info": "세종대 교수님들이 인정하고 학생이 개발한 특별한 메뉴가 있는 중식당",
+  "place_url": "https://naver.me/xXr7Z1mq",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOrKxu%2FbtshsK11MIq%2FSAKoDKOafM94HYZIuw0q51%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 광나루로 373",
+  "place_locate_num": 3,
+  "place_category": "food",
+  "place_thema": "중화요리",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.2964801513185!2d127.0715034!3d37.54807810000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c4da6c51c1%3A0xba76f32549c6249f!2z7IS47KKF7JuQ!5e0!3m2!1sko!2skr!4v1685780252652!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c6bd7122a011e523948"
+  },
+  "place_seq": 19,
+  "place_nm": "스시붐",
+  "place_info": "웨이팅을 감수할만한 초밥 맛집, 시그니처 메뉴인 따뜻한 연어 초밥(따연초)은 꼭 먹어보기!",
+  "place_url": "https://naver.me/GDc5idSq",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbqTkP7%2FbtshxHja9U4%2FcDK2DljpMSyl8M85p7bhk0%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 광나루로17길 14-5",
+  "place_locate_num": 3,
+  "place_category": "food",
+  "place_thema": "일식",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.2847248635007!2d127.07274779999997!3d37.54835509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4dad0d44149%3A0x472e129159a76150!2z7Iqk7Iuc67aQ!5e0!3m2!1sko!2skr!4v1685780265252!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c6ed7122a011e523949"
+  },
+  "place_seq": 20,
+  "place_nm": "성민식당",
+  "place_info": "정갈한 집밥이 생각날 때 만족스러운 식사를 할 수 있는 식당",
+  "place_url": "https://naver.me/IgTFO1Ic",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fozc0y%2Fbtshy80KETX%2Fsd19ELa5yGX5cjEzOiKK5k%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 동일로34길 31 성민식당",
+  "place_locate_num": 3,
+  "place_category": "food",
+  "place_thema": "한식",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.2297456315723!2d127.07031779999998!3d37.54965060000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c5104bbd4f%3A0xf988eaaf4ab1af1a!2z7ISx66-87Iud64u5!5e0!3m2!1sko!2skr!4v1685780286778!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c72d7122a011e52394a"
+  },
+  "place_seq": 21,
+  "place_nm": "미식반점",
+  "place_info": "달콤바삭한 탕후루 탕수육 강추,다른 중식들도 맛있어요!",
+  "place_url": "https://naver.me/GGhUhR4E",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcUu8KN%2FbtshyseqTEp%2FdzNTJkQKRteAmuCQYJFQR1%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 군자로 70 1층",
+  "place_locate_num": 3,
+  "place_category": "food",
+  "place_thema": "중화요리",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12653.13428174203!2d127.06121752067772!3d37.548382302689944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5e46a79e983%3A0x22a972910dbbca7c!2z66-47Iud67CY7KCQ!5e0!3m2!1sko!2skr!4v1685882157262!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c75d7122a011e52394b"
+  },
+  "place_seq": 22,
+  "place_nm": "달문식당",
+  "place_info": "다양한 음식 스펙트럼, 낮과 밤에 따라 완전히 달라지는 맛집",
+  "place_url": "https://naver.me/xZDgLxbt",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvX27m%2FbtshyMcEcG5%2Frl6jES9vqauJ5OUoGg6yK1%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 군자로 70",
+  "place_locate_num": 3,
+  "place_category": "food",
+  "place_thema": "주점",
+  "place_review_count": 4,
+  "place_score_avg": 4.5,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12653.051737220063!2d127.06063576503573!3d37.548868565142335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca57b6cde0c99%3A0x90b5316eed59fa38!2z64us66y47Iud64u5!5e0!3m2!1sko!2skr!4v1685882219411!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c7ad7122a011e52394c"
+  },
+  "place_seq": 23,
+  "place_nm": "빠오즈푸",
+  "place_info": "쌀쌀할 땐, 훈둔면과 딤섬으로 몸을 따뜻하게! 더워도 맛있음",
+  "place_url": "https://naver.me/5MUCn2IF",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbgxh2z%2FbtshyoDkcZ9%2FBGyYL9jXT9lPR1DYzFqHCk%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 광나루로 373",
+  "place_locate_num": 1,
+  "place_category": "food",
+  "place_thema": "중화요리",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12653.190477959093!2d127.06119407067744!3d37.54805125269134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c4da6c51c1%3A0xb7a4aacf520310ac!2z67mg7Jik7KaI7ZG4!5e0!3m2!1sko!2skr!4v1685882300140!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c7fd7122a011e52394d"
+  },
+  "place_seq": 24,
+  "place_nm": "카페롱",
+  "place_info": "개성있고 맛있는 메뉴, 최고의 분위기, 새벽에도 이용가능!",
+  "place_url": "https://naver.me/GLKwltEL",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdUP5wu%2Fbtshx9zHLjs%2FJs3aHq5f94Wv8sqnRLmO7K%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 광나루로 360 1층 카페롱",
+  "place_locate_num": 4,
+  "place_category": "cafe",
+  "place_thema": "카페",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12654.352535627746!2d127.0642686206731!3d37.54120505271979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca52922b601b7%3A0xf0d68a33836322a7!2z7Lm07Y6Y66Gx!5e0!3m2!1sko!2skr!4v1685882342613!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c83d7122a011e52394e"
+  },
+  "place_seq": 25,
+  "place_nm": "아오스요거트",
+  "place_info": "늘 붐비는 이 동네 최고의 그릭요거트",
+  "place_url": "https://naver.me/FcagBNOC",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUcRXf%2Fbtshy6Ppmg7%2FrCCEPLJF90IxkbLvktdOT1%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 능동로 153",
+  "place_locate_num": 4,
+  "place_category": "cafe",
+  "place_thema": "카페",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12653.803966164645!2d127.0621321706752!3d37.544437052706385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca5abbd12c31b%3A0x82259afe87a51632!2z7JWE7Jik7Iqk7JqU6rGw7Yq4!5e0!3m2!1sko!2skr!4v1685882386633!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c87d7122a011e52394f"
+  },
+  "place_seq": 26,
+  "place_nm": "띵똥와플",
+  "place_info": "이렇게 저렴하고 먹을만한 와플집이 있다?",
+  "place_url": "https://naver.me/IFjElw37",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fv4ABW%2FbtshycQs0F5%2Fh6pECX3cDeqT4GKKDSSVh0%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 능동로13길 10",
+  "place_locate_num": 4,
+  "place_category": "cafe",
+  "place_thema": "카페",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12654.117531498705!2d127.061065370674!3d37.542589652714035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c2b90c40f3%3A0xf2fba0a2206ce12d!2z652165il7JmA7ZSMIOqxtOuMgOygkA!5e0!3m2!1sko!2skr!4v1685882418210!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c8bd7122a011e523950"
+  },
+  "place_seq": 27,
+  "place_nm": "206숯불구이",
+  "place_info": "회식하기 좋은 가성비 최고 고깃집",
+  "place_url": "https://naver.me/xQO7TGcu",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc4PivC%2Fbtshy6aOd3e%2FL2qJKPuZekCZxZzyV3Apwk%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 광나루로 390 104호",
+  "place_locate_num": 4,
+  "place_category": "food",
+  "place_thema": "고기",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12654.117531498705!2d127.061065370674!3d37.542589652714035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c2b90c40f3%3A0xf2fba0a2206ce12d!2z652165il7JmA7ZSMIOqxtOuMgOygkA!5e0!3m2!1sko!2skr!4v1685882418210!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c8fd7122a011e523951"
+  },
+  "place_seq": 28,
+  "place_nm": "멘쇼",
+  "place_info": "라멘맛집 다니는 친구의 추천맛집. 특별한 면발과 육수가 맛있는 국내최초 츠케멘 전문점",
+  "place_url": "https://naver.me/GqBsK6QE",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FyHLP7%2FbtshyPNVHnd%2FpjKy7Rs1OxiUSsDu3s0Xak%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 군자로2길 3",
+  "place_locate_num": 4,
+  "place_category": "food",
+  "place_thema": "일식",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12653.812622740505!2d127.06136667067517!3d37.54438605270657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c32fdb83ab%3A0x3fb26649d3295654!2z66mY7Ie8IOm6uuWMoA!5e0!3m2!1sko!2skr!4v1685882509868!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c94d7122a011e523952"
+  },
+  "place_seq": 29,
+  "place_nm": "고향산천 원조 숯불닭갈비",
+  "place_info": "매콤하고 맛있는 닭갈비 맛집",
+  "place_url": "https://naver.me/GrSqSnhJ",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbdZVak%2FbtshyzYSDkb%2Fl30pmi6W2oiFJ0KXcnaBR0%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 군자로2길 3",
+  "place_locate_num": 4,
+  "place_category": "food",
+  "place_thema": "한식",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12653.382073243869!2d127.0627554706767!3d37.546922552696024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4db41babb01%3A0x6471b2970bf3a068!2z6rOg7Zal7IKw7LKc7JuQ7KGw7Iiv67aI64ut6rCI67mE!5e0!3m2!1sko!2skr!4v1685882528710!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c99d7122a011e523953"
+  },
+  "place_seq": 30,
+  "place_nm": "초라멘",
+  "place_info": "매일 정해진 수량만 판매하는, 모두가 줄서서 먹는 그 라면집",
+  "place_url": "https://naver.me/5h3EubId",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F3R5IB%2FbtshtEURP79%2FkDMispOoiCHY6v9LY5RZuk%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 능동로13길 80 1층",
+  "place_locate_num": 4,
+  "place_category": "food",
+  "place_thema": "일식",
+  "place_review_count": 2,
+  "place_score_avg": 3.5,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12653.7090486988!2d127.05870447067548!3d37.544996252704046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca511ec028169%3A0x2e968d76b28fd4!2z7LSI652866mY!5e0!3m2!1sko!2skr!4v1685882548771!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886c9fd7122a011e523954"
+  },
+  "place_seq": 31,
+  "place_nm": "시홍쓰",
+  "place_info": "토마토+계란+밥 조합이 이렇게 맛있을 줄은 몰랐다.",
+  "place_url": "https://naver.me/x9JcNGds",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvgvMD%2FbtshwlUYs0T%2FqPPZ4WLKfUNvolMLe9KeG1%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 능동로17길 5 1층",
+  "place_locate_num": 4,
+  "place_category": "food",
+  "place_thema": "중화요리",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12653.525151165877!2d127.06268967067619!3d37.54607965269954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca55f6010025b%3A0xf0045c8969601d88!2z7Iuc7ZmN7JOw!5e0!3m2!1sko!2skr!4v1685882568699!5m2!1sko!2skr",
+  "place_status": 10
+},
+{
+  "_id": {
+    "$oid": "64886ca3d7122a011e523955"
+  },
+  "place_seq": 32,
+  "place_nm": "화양식당",
+  "place_info": "할머니가 손수 차려주신 밥상의 맛. 집밥을 배불리 먹고 싶다면 여기로!",
+  "place_url": "https://naver.me/5012Yp6u",
+  "place_img": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FTUyJe%2FbtshxGq5TB6%2FkazXFuoro3p7b6McKLTjhk%2Fimg.jpg",
+  "place_locate_info": "서울 광진구 군자로7길 3",
+  "place_locate_num": 4,
+  "place_category": "food",
+  "place_thema": "중화요리",
+  "place_review_count": 0,
+  "place_score_avg": 0,
+  "place_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12653.480780158774!2d127.05973547067633!3d37.546341052698445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4c37ba89ff3%3A0x531f527795a2391f!2z7ZmU7JaR7Iud64u5!5e0!3m2!1sko!2skr!4v1685882596327!5m2!1sko!2skr",
+  "place_status": 10
+}]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <script type="text/javascript" src="/static/js/mdb.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+
+  <!-- S Plate icon -->
+  <link rel="icon" href="/static/img/S plate 탭 로고2.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link rel="stylesheet" href="/static/css/mdb.min.css" />
+  <link rel="stylesheet" href="/static/css/common.css"/>
+  <title>>{% block title %}{% endblock %}</title>
+</head>
+<body>
+  <section class="wrap">
+    <!--header-->
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container">
+          <!-- 로고 -->
+          <a class="navbar-brand me-2" href="{{ url_for('index') }}">
+            <img src="https://blog.kakaocdn.net/dn/7mstk/btshCflg7RQ/u1KvbmRlLhh6IAzFsnmk0K/img.png" height="25"
+              alt="S Plate Logo" loading="lazy" style="margin-top: -1px;" />
+          </a>
+          <!--메뉴-->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('index') }}">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('food_list') }}">식당</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('cafe_list') }}">카페</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('place_recommend') }}">추천하기</a></li>
+            <li class="nav-item" id="usermode"><a class="nav-link" href="{{ url_for('admin_user') }}">내 정보 관리</a></li>
+            <li class="nav-item" id="adminmode"><a class="nav-link" href="{{ url_for('admin_post') }}">관리자모드</a></li>
+          </ul>
+          <!--로그인 메뉴-->
+          <div class="d-flex align-items-center">
+            <span id="user_info_nm" class="user_info_nm user_info"></span>
+            <button id="login_button" onclick="location.href='/login'" type="button"
+              class="btn btn-light px-3 me-2">Login</button>
+            <button id="logout_button" onclick="location.href='/logout'" type="button" class="btn btn-light px-3 me-2">Logout</button>
+            <button id="signup_button" onclick="location.href='/signup'" type="button" class="btn btn-danger me-3">Sign
+              up</button>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+    </header>
+
+      <!-- Main content block -->
+      {% block content %}{% endblock %}
+      <!-- Main content block -->
+
+      <!-- footer -->
+      <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgb(154, 32, 40);"><a class="text-white">© Copyright: S plate</a></div>
+      </footer>
+      <!-- footer -->
+  </section>
+</body>
+<script type="text/javascript" src="/static/js/common.js"></script>
+<script type="text/javascript" src="/static/js/login.js"></script>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <script>
+            alert("{{ messages[0] }}");
+        </script>
+    {% endif %}
+{% endwith %}
+</html>

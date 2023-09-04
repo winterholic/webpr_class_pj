@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}S Plate : 회원가입{% endblock %}
+{% block content %}
+<article class="form-area">
+  <h2 class="topic">SIGN UP</h2>
+  <form id="login_form" class="login_form" action="{{ url_for('signup') }}" method="POST">
+    <div id="name_input" class="form_field">
+      <span>Name</span>
+      <input type="text" id="user_nm" name="user_nm">
+    </div>
+
+    <div id="id_input" class="form_field">
+        <span>ID</span>
+        <input type="text" id="user_id" name="user_id">
+    </div>
+
+    <div id="password_input" class="form_field">
+      <span>Password</span>
+      <input type="text" id="user_pw" name="user_pw">
+    </div>
+
+    <button onclick="signupClick();" type="button" class="btn-sign btn-up">Sign Up</button>
+  </form>
+</article>
+{% endblock %}

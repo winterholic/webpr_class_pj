@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block title %}S Plate : 가게 상세보기{% endblock %}
+{% block content %}
+
+<style>
+  .form-control-select {
+    width: 180px; /* 원하는 너비로 설정 */
+  }
+</style>
+
+<div class="container">
+  <div class="place_detail">
+    <header>
+      <h2 class="topic">{{ data.place_nm }}</h2>
+      <span class="hashtag">#{{data.place_locate_num}} #{{data.place_category}}</span>
+      <span class="score">⭐ {{data.place_score_avg}}점</span>
+      <span class="review_count">리뷰 {{data.place_review_count}}개</span>
+    </header>
+    <hr>
+
+    <div class="cont_box">
+      <!-- 이미지 -->
+      <div class="row">
+        <div class="col">
+          <img src="{{ data.place_img }}" class="img-fluid" style="width: 100%; height: auto;" />
+        </div>
+        <div class="col">
+          <div class="ratio ratio-1x1" style="position: relative;">
+            <iframe src="{{ data.place_map }}" class="w-100 h-100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 이미지 -->
+
+      <hr>
+      <table>
+        <tbody>
+          <tr>
+            <th>주소</th>
+            <td>{{ data.place_locate_info }}</td>
+          </tr>
+          <tr>
+            <th>음식 종류</th>
+            <td>{{data.place_thema}}</td>
+          </tr>
+          <tr>
+            <th>info</th>
+            <td>{{data.place_info}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="{{data.place_url}}">다른 정보가 궁금하다면?</a>
+    </div>
+  </div>
+
+  <!-- 리뷰들 -->
+  <div class="place_review">
+    <h3>리뷰</h3>
+    <ul class="review_list">
+      <hr>
+      {% for r in review_list %}
+      {% for lv in level_list %}
+      {% if lv.level_seq == r.user_level %}
+      <div class="row mb-4">
+        <div class="col-1">
+          <img src="{{lv.level_img}}" class="img-fluid shadow-1-strong rounded-5" />
+        </div>
+
+        <div class="col-11">
+          <p class="mb-2"><strong>{{ r.user_nm }} ⭐ {{r.review_score}} </strong> on {{ r.datereview_created_date }} </p>
+          <p>
+            {{ r.review_contents }}
+          </p>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+  </div>
+  <!-- 리뷰들 -->
+
+  <hr>
+  <!-- 리뷰작성 -->
+  <section id="comments">
+    <!-- include the flashmessage.html and 
+    show if there is any messages send using flash() from the backend -->
+
+    <h4>
+      <p><strong>리뷰쓰기</strong></p>
+    </h4>
+
+    <link href="/static/css/star.css" rel="stylesheet" />
+
+    <form action="" method="post">
+      <td>
+        <select class="form-control form-control-select" name="reviewscore" id="reviewscore" required>
+          <option value="" disabled selected>별점을 선택해주세요</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        
+    </td>
+      <!-- Message input -->
+      <div class="form-outline mb-4">
+        <textarea class="form-control" name="review_content_area" id="form4Example3" rows="3" required=""></textarea>
+        <label class="form-label" for="form4Example3" style="margin-left: 0px;">리뷰를 작성해주세요.</label>
+        <div class="form-notch">
+          <div class="form-notch-leading" style="width: 9px;"></div>
+          <div class="form-notch-middle" style="width: 32px;"></div>
+          <div class="form-notch-trailing"></div>
+        </div>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" style="background-color: rgb(230, 57, 69);"
+      name="action" value="addreview" class="btn btn-primary btn-block mb-4">등록</button>
+
+      
+    </form>
+
+  </section>
+  <!-- 리뷰작성 -->
+</div>
+
+<script>
+  function submitForm() {
+    document.getElementById("myform").submit();
+  }
+</script>
+{% endblock %}

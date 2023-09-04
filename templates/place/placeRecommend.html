@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}S Plate : 추천하기{% endblock %}
+{% block content %}
+<div class="recommend_area">
+  <h2 class="topic">추천하기</h2>
+  <hr>
+  <article class="recommend_form_area">
+    <form class="recommend_form" action="" method="POST">
+      <!-- Name input -->
+      <div class="recommend_form_field form-outline mb-4">
+        <input id="place_name_input" class="form-control" type="text"/ name="place_name_input">
+        <label class="form-label" for="place_name_input">식당/카페명</label>
+      </div>
+
+      <div class="recommend_form_field form-check form-check-inline">
+        <input id="food_inlineRadio" class="form-check-input" type="radio" name="inlineRadioOptions" value="food" />
+        <label class="form-check-label" for="food_inlineRadio">식당</label>
+      </div>
+      <div class="recommend_form_field form-check form-check-inline">
+        <input id="cafe_inlineRadio" class="form-check-input" type="radio" name="inlineRadioOptions" value="cafe" />
+        <label class="form-check-label" for="cafe_inlineRadio">카페</label>
+      </div>
+
+      <!-- Message input -->
+      <div class="recommmend_form_field form-outline mb-4">
+        <textarea id="place_info_area" class="form-control" rows="3" name="place_info_area"></textarea>
+        <label class="form-label" for="place_info_textarea">간단한 소개</label>
+      </div>
+      <!-- Submit button -->
+      <button type="submit" style="background-color: rgb(230, 57, 69);"class="btn btn-primary btn-block mb-4">Send</button>
+    </form>
+  </article>
+</div>
+{% endblock %}

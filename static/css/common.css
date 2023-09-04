@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+footer{margin-top: 60px;}
+.wrap{height:100%; min-width:800px;}
+.container {height:calc(100% - 80px);}
+.right-box {float: right;}
+.topic {margin:30px; height:50px; line-height:50px; font-weight: bold;}
+.semi_topic {margin-left: 30px; margin-top: 10px;}
+.card-title {text-align: center;}
+.user_info{font-weight:500;}
+.hashtag{font-weight: 80;}
+
+.main_text{margin:15px; font-weight: 550;}
+
+.place_detail{margin-bottom: 20px;}  
+.place_detail table th{padding-right: 10px;}
+.place_detail header span{margin-right: 10px;}
+
+.place_review ul{-webkit-padding-start: 0px;}
+.place_review li{list-style-type: none;}
+
+.recommend_area{
+    width: 70%;
+    margin-left: 16.2%;
+}
+.recommend_form_area{
+    position: relative;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 65%;
+    padding: 20px 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 2;
+    margin-top: 20px;
+}
+.recommend_form{width:90%; margin-left: 5%; margin-bottom: 40px;}
+#place_info_area{height:300px;}
+
+.form-area {
+    position: relative;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    height: 65%;
+    padding: 20px 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 2;
+    margin-top: 60px;
+}
+.form-area .topic{text-align: center; font-weight: bold;}
+.login_form {
+width: 85%;
+}
+.form_field {
+padding-left: 17%;
+display: flex;
+flex-flow: column wrap;
+width: 100%;
+}
+.form_field span{color: black; padding-bottom: 5px;}
+.form_field input {
+border: none;
+padding: 10px;
+margin-bottom: 20px;
+border-bottom: 2px solid rgba(116, 116, 116, 0.44);
+height: 30px;
+transition: border-bottom 0.1s ease-in-out 0.2s;
+}
+.form_field input:focus {
+border-bottom: 2px solid rgb(249, 63, 76);
+}
+.btn-sign {
+border: none;
+background: rgb(230, 57, 69);
+color: white;
+font-weight: bold;
+width: 100%;
+padding: 10px;
+margin-top: 50px;
+margin-left:9%;
+border-radius: 50px;
+cursor: pointer;
+transition: background 0.3s ease 0.1s;
+}
+.btn-sign:hover {
+background: rgb(230, 120, 100);
+}

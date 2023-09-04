@@ -1,0 +1,28 @@
+db.level.insertOne({level_seq:1, level_name:"새싹 새종이", level_min:0, level_max:299, level_img:"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIId0h%2FbtshA4Lj1VL%2F99AkyPi0CBEE3fftEMwZ51%2Fimg.jpg"})
+
+
+db.level.insertOne({level_seq:2, level_name:"병아리 세종이", level_min:300, level_max:499, level_img:"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Feoq9N9%2Fbtshz0ijQ4K%2FbP4iz4MJN6tGjxbnUldVaK%2Fimg.jpg"})
+
+
+db.level.insertOne({level_seq:3, level_name:"입문하는 세종이", level_min:500, level_max:799, level_img:"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdCUZyz%2FbtshCdViSGK%2FjdfJct2FHm274zkkaXMMqk%2Fimg.jpg"})
+
+
+db.level.insertOne({level_seq:4, level_name:"잘먹는 세종이", level_min:800, level_max:999, level_img:"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fkyxei%2FbtshAqBlzO6%2FD6EuiVhaCNYHwwsKImj250%2Fimg.jpg"})
+
+
+db.level.insertOne({level_seq:5, level_name:"맛좀 아는 세종이", level_min:1000, level_max:1299, level_img:"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbk48qI%2FbtshzYyjddz%2FKS1PHfVA3ySJdUhhloB8dK%2Fimg.jpg"})
+
+
+db.level.insertOne({level_seq:6, level_name:"식도락여행 세종이", level_min:1300, level_max:1599, level_img:"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbpdXRM%2Fbtshy7vAdDw%2FZV8ECtNX70Wa8KPk1WEuDk%2Fimg.jpg"})
+
+
+db.level.insertOne({level_seq:7, level_name:"맛집 전문가 세종이", level_min:1600, level_max:1899, level_img:"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FHROBI%2FbtshyMS0BJt%2FohKoKjd8z4lAOYKpc1pjsK%2Fimg.jpg"})
+
+
+db.level.insertOne({level_seq:8, level_name:"맛집 고인물 세종이", level_min:1900, level_max:2199, level_img:"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FEzS0B%2FbtshAu4zigF%2F4SblibhjB3yQy3xpHj761K%2Fimg.jpg"})
+
+
+db.level.insertOne({level_seq:9, level_name:"맛집 마스터 세종이", level_min:2200, level_max:2499, level_img:"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FlKzpX%2Fbtshy7bg9jL%2FtgFhcpvFbAPzBPjTDQNeqk%2Fimg.jpg"})
+
+
+db.level.insertOne({level_seq:10, level_name:"백종원 세종이", level_min:2500, level_max:1000000, level_img:"https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbYZ2go%2FbtshzXTH8Ys%2FWRbmEld6sefCRkB2yRthJ0%2Fimg.jpg"})

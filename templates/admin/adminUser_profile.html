@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="/static/js/mdb.min.js"></script>
+    <!-- S Plate icon -->
+    <link rel="icon" href="/static/img/S Plate 탭 로고.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <link rel="stylesheet" href="/static/css/mdb.min.css">
+    <link rel="stylesheet" href="/static/css/admin.css">
+    <title>S Plate : admin user</title>
+</head>
+<style>
+.user-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.profile-details {
+  font-family: 'Lato', sans-serif;
+}
+
+.profile-role {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-info {
+  font-size: 18px;
+}
+
+section {
+  width: 40%;
+  margin: 0 auto;
+}
+</style>
+<body>
+    <!--Main Navigation-->
+    <header>
+        <!-- Sidebar -->
+        <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+            <div class="position-sticky">
+                <div class="list-group list-group-flush mx-3 mt-4">
+                    <a  href="{{ url_for('admin_userprofile') }}" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-lock fa-fw me-3"></i><span>My profile</span></a>
+                    <a  href="{{ url_for('admin_user2') }}" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-lock fa-fw me-3"></i><span>About My review</span></a>
+                    <a  href="{{ url_for('admin_user3') }}" class="list-group-item list-group-item-action py-2 ripple"><i
+                        class="fas fa-lock fa-fw me-3"></i><span>Change PW</span></a> 
+                </div>
+            </div>
+        </nav>
+        <!-- Sidebar -->
+
+        <!-- Navbar -->
+        <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+                    aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Navbar brand -->
+                    <a class="navbar-brand nav-link" href="{{ url_for('index') }}">
+                    <img src="https://blog.kakaocdn.net/dn/7mstk/btshCflg7RQ/u1KvbmRlLhh6IAzFsnmk0K/img.png" height="25" alt="S Plate Logo" loading="lazy" style="margin-top: -1px;" />
+                    </a>
+                <!-- Navbar brand -->
+
+                <!-- right menu -->
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="{{ url_for('logout') }}">
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+                <!-- right menu -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </header>
+
+    <!--Main layout-->
+    <main style="margin-top: 58px">
+        <div class="container pt-4">
+            <!--Section: Manage Users-->
+            <section class="mb-4">
+                <div class="card">
+                    <div class="card-header py-3">
+                        <h5 class="mb-0 text-center">
+                            <strong>내 프로필 정보</strong>
+                        </h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="table-responsive">
+                            <table class="table table-hover text-nowrap">
+                                <thead>
+                                    <tr>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <div class="user-profile">
+                                        <img src="{{ user_data.user_level_img }}" class="profile-image">
+                                        <div class="profile-details">
+                                          <h2 class="profile-role">{{ user_data.user_role }}</h2>
+                                          <p class="profile-info">ID : {{ user_data.user_id }}</p>
+                                          <p class="profile-info">이름 : {{ user_data.user_nm }}</p>
+                                          <p class="profile-info">보유 포인트 : {{ user_data.user_point }}</p>
+                                          <p class="profile-info">레벨 : {{ user_data.user_level }}</p>
+                                          <p class="profile-info">작성한 리뷰 개수 : {{ user_data.user_review_cnt }}</p>
+                                        </div>
+                                      </div>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Section: Manage Users-->
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!-- footer -->
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgb(154, 32, 40);"><a class="text-white">© Copyright: S plate</a></div>
+    </footer>
+    <!-- footer -->
+</body>
+</html>

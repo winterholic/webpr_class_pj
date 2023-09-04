@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}S Plate : 추천하기{% endblock %}
+{% block content %}
+<div class="recommend_area">
+  <h2 class="topic">추천하기</h2>
+  <hr>
+  <article class="recommend_form_area">
+    <div class="image-container">
+        <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcjCb7O%2FbtsisQGsl8p%2FBO6cqjrpzOMKADnc9vsqI1%2Fimg.png" alt="이미지" style="width: 100%; max-width: 500px;">
+      </div>
+    <p style="text-align: center;">감사합니다!</p>
+    <p style="text-align: center;">식당/카페의 추천이 성공적으로 완료되었습니다!</p>
+    <div style="margin-top: auto;">
+        <a href="{{ url_for('index') }}" class="btn btn-primary btn-block mb-4" style="background-color: rgb(230, 57, 69); width: 100%;">Go to Home</a>
+      </div>
+  </article>
+</div>
+<style>
+    .image-container {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+{% endblock %}

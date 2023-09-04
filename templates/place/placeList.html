@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}S Plate : 가게 목록{% endblock %}
+{% block content %}
+<div class="container">
+  <h2 class="topic">{{ list_nm }} List</h2>
+  <!-- 지도 이미지 삽입 필요 -->
+
+  <hr />
+
+  <!-- card group -->
+  <div class="row row-cols-1 row-cols-md-3 g-3">
+    {% for p in data_list %}
+    <div class="col">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="{{ p.place_img }}" class="img-fluid" />
+          <a href="#" onclick="location.href='{{p.place_category}}Detail/{{p.place_seq}}'">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{ p.place_nm }}</h5>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- card group -->
+  <br />
+</div>
+{% endblock %}

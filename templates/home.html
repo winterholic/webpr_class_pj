@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block title %}S Plate : 메인 {% endblock %}
+{% block content %}
+<!-- Background image -->
+<div class="p-5 text-center bg-image" style="
+          background-image: url('http://photo.sentv.co.kr/photo/2022/06/22/20220622010603.jpg');
+          height: 600px;
+        ">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="main_text">세종대학교 학생들이 추천하는 진짜 맛집!</h1>
+            <h1 class="main_text">세종대 주변의 식당&amp;카페를 소개합니다</h1>
+            <h4 class="main_text">여러분만의 식당/카페를 추천해주세요</h4>
+            <a class="btn btn-outline-light btn-lg" href="{{ url_for('place_recommend') }}" role="button">추천하기</a>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- Background image -->
+<div class="container">
+  <!-- food -->
+  <div class="row">
+    <h4 class="topic">실시간 식당 평점 top 3</h4>
+    {% for i in range(3) %}
+    <div class="col-md">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="{{ data_food[i].place_img }}" class=" img-fluid" />
+          <a href="{{ url_for('food_detail', seq=data_food[i].place_seq) }}">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{data_food[i].place_nm}}</h5>
+          <a href="{{ url_for('food_detail', seq=data_food[i].place_seq) }}" class="btn btn-link">더보기 링크</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+<hr>
+  <!-- cafe contatiner -->
+  <div class="row">
+    <h4 class="topic">실시간 카페 평점 top 3</h4>
+    {% for i in range(3) %}
+    <div class="col-md">
+      <div class="card">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="{{data_cafe[i].place_img}}" class=" img-fluid" />
+          <a href="{{ url_for('cafe_detail', seq=data_cafe[i].place_seq) }}">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{data_cafe[i].place_nm}}</h5>
+          <a href="{{ url_for('cafe_detail', seq=data_cafe[i].place_seq) }}" class="btn btn-link">더보기 링크</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+<hr>
+  <div class="row">
+    <h4 class="topic">위치가 궁금하다면?</h4>
+    <div class="col-md-5">
+      <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="/static/img/지도.jpg" class=" img-fluid" />
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+    <!-- 프로필 정보 -->
+    <div class="col-md-5">
+      <h3 id="user_info_nm" class="user_info_nm topic">S plate</h3>
+      <h4 id="user_info_level" class="semi_topic">많은 사람의 후기를 한 번에!</h4>
+      <!--프로필 사진 -->
+      <img src="/static/img/S plate 탭 로고2.png" width="200px" class="profile-picture img-fluid border border-3 border-white rounded-circle">
+      <a href="{{ url_for('login') }}" id="hidden_login_button" class="topic"><h4 class="topic">로그인 하러가기</h4></a>
+      <h4 id="user_info_review" class="topic"></h4>
+      <h5 id="cheerup_text" class="semi_topic"></h5>
+    </div>
+  </div>
+</div>
+{% endblock %}

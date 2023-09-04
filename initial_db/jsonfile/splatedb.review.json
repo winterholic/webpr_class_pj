@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "6479a6389cc6d32b65ded176"
+  },
+  "review_seq": 1,
+  "user_id": "abcde",
+  "user_level": 10,
+  "user_nm": "초코파이",
+  "place_seq": 17,
+  "datereview_created_date": {
+    "$date": "2023-05-05T10:30:00.000Z"
+  },
+  "review_contents": "정말 맛있는 집이에요!",
+  "review_score": 5,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a63c9cc6d32b65ded177"
+  },
+  "review_seq": 2,
+  "user_id": "aaa77",
+  "user_level": 1,
+  "user_nm": "종강하자",
+  "place_seq": 17,
+  "datereview_created_date": {
+    "$date": "2023-05-14T12:37:35.000Z"
+  },
+  "review_contents": "맛이 정말 좋은 것 같아요, 다음에도 또 오고 싶어요.",
+  "review_score": 3,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a6439cc6d32b65ded178"
+  },
+  "review_seq": 3,
+  "user_id": "545a",
+  "user_level": 1,
+  "user_nm": "교수님제발휴강",
+  "place_seq": 17,
+  "datereview_created_date": {
+    "$date": "2023-01-15T01:24:12.000Z"
+  },
+  "review_contents": "이 맛집을 친구들에게 강력히 추천했습니다.",
+  "review_score": 4,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a6479cc6d32b65ded179"
+  },
+  "review_seq": 4,
+  "user_id": "aaa77",
+  "user_level": 1,
+  "user_nm": "종강하자",
+  "place_seq": 22,
+  "datereview_created_date": {
+    "$date": "2023-03-24T00:01:02.000Z"
+  },
+  "review_contents": "아무 생각없이 갔는데 너무 맛있어서 깜짝 놀랐어요",
+  "review_score": 5,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a64b9cc6d32b65ded17a"
+  },
+  "review_seq": 5,
+  "user_id": "abcde",
+  "user_level": 10,
+  "user_nm": "초코파이",
+  "place_seq": 22,
+  "datereview_created_date": {
+    "$date": "2023-04-11T23:41:12.000Z"
+  },
+  "review_contents": "여기 왜 맛있나요?",
+  "review_score": 4,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a64d9cc6d32b65ded17b"
+  },
+  "review_seq": 6,
+  "user_id": "545a",
+  "user_level": 1,
+  "user_nm": "교수님제발휴강",
+  "place_seq": 22,
+  "datereview_created_date": {
+    "$date": "2023-01-11T15:14:42.000Z"
+  },
+  "review_contents": "옆집이 웨이팅이 있어서 오게 되었는데 너무 맛있어요",
+  "review_score": 4,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a6539cc6d32b65ded17c"
+  },
+  "review_seq": 7,
+  "user_id": "zzzzz1",
+  "user_level": 1,
+  "user_nm": "가위바위보",
+  "place_seq": 22,
+  "datereview_created_date": {
+    "$date": "2023-05-28T07:54:24.000Z"
+  },
+  "review_contents": "너무 감성있어요",
+  "review_score": 5,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a6579cc6d32b65ded17d"
+  },
+  "review_seq": 8,
+  "user_id": "545a",
+  "user_level": 1,
+  "user_nm": "교수님제발휴강",
+  "place_seq": 2,
+  "datereview_created_date": {
+    "$date": "2023-04-04T19:04:13.000Z"
+  },
+  "review_contents": "좋습니다. 다음에도 올 거에요.",
+  "review_score": 5,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a6599cc6d32b65ded17e"
+  },
+  "review_seq": 9,
+  "user_id": "abcde",
+  "user_level": 10,
+  "user_nm": "초코파이",
+  "place_seq": 1,
+  "datereview_created_date": {
+    "$date": "2023-03-05T14:00:44.000Z"
+  },
+  "review_contents": "행복합니다.",
+  "review_score": 5,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a65d9cc6d32b65ded17f"
+  },
+  "review_seq": 10,
+  "user_id": "zzzzz1",
+  "user_level": 1,
+  "user_nm": "가위바위보",
+  "place_seq": 30,
+  "datereview_created_date": {
+    "$date": "2023-03-06T13:54:34.000Z"
+  },
+  "review_contents": "나쁘지 않아요.",
+  "review_score": 3,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a6619cc6d32b65ded180"
+  },
+  "review_seq": 11,
+  "user_id": "aaa77",
+  "user_level": 1,
+  "user_nm": "종강하자",
+  "place_seq": 30,
+  "datereview_created_date": {
+    "$date": "2023-03-07T09:33:27.000Z"
+  },
+  "review_contents": "정말 좋았어요. 강추합니다.",
+  "review_score": 4,
+  "review_status": 10
+},
+{
+  "_id": {
+    "$oid": "6479a6659cc6d32b65ded181"
+  },
+  "review_seq": 12,
+  "user_id": "abcde",
+  "user_level": 10,
+  "user_nm": "초코파이",
+  "place_seq": 8,
+  "datereview_created_date": {
+    "$date": "2023-02-14T04:54:32.000Z"
+  },
+  "review_contents": "긴 설명이 필요없네요.",
+  "review_score": 5,
+  "review_status": 10
+}]
